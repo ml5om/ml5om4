@@ -257,7 +257,7 @@ ${prefix}queue ⇏ لمعرفة قآئمة التشغيل
 
 
 client.on('message', function(message) {
-	const myID = "389505536090963970";
+	const myID = "448607625077194762";
     let args = message.content.split(" ").slice(1).join(" ");
     if(message.content.startsWith(prefix + "setname")) {
 		        if(message.author.id !== myID) return;
